@@ -1694,6 +1694,7 @@ td.forum_on {
 </table>
 <br />
 <div align="center">
+<input type="hidden" name="regtime" value="{$time}" />
 <input type="hidden" name="step" value="registration" />
 <input type="hidden" name="action" value="do_register" />
 <input type="submit" class="button" name="regsubmit" value="{$lang->submit_registration}" />
